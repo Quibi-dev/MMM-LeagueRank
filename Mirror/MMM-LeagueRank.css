@@ -1,0 +1,25 @@
+/* Magic Mirror
+ * Module: MMM-LeagueRank
+ *
+ * By Kevin
+ *
+ */
+ 
+ .MMM-LeagueRank .small.bright {
+  color: #FFFFFF;               /* Color the title text. Default is white. */
+  text-align: center;           /* Align the title text. (left, center, right) */
+  /*  display: none; */         /* Uncomment if you don't want title text */
+}
+
+.MMM-LeagueRank .photo {
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MMM-LeagueRank .xsmall.bright {
+  color: #FFFFFF;             /* Color the information. Default is white. */
+  text-align: center;         /* Align the information. (left, center, right) */
+/*  display: none; */         /* Uncomment if you don't want descriptive information */
+}
