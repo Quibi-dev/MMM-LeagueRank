@@ -25,7 +25,7 @@ Module.register("MMM-LeagueRank",{
         requiresVersion: "2.1.0",
 
         // Set locale.
-        this.url = "http://lanhok.nl/API/league/smartMirrorApi.php?name="+this.config.nickname;
+        this.url = "yoururlhere?name="+this.config.nickname;
         this.rank = {};
         this.scheduleUpdate();
         this.loaded = false;
